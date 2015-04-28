@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DF1E5938-A478-43D7-BB09-0C82D028E446}</ProjectGuid>
+    <RootNamespace>ChineseChess</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Black.h" />
+    <ClInclude Include="BlackBachelor.h" />
+    <ClInclude Include="BlackGun.h" />
+    <ClInclude Include="BlackHorse.h" />
+    <ClInclude Include="BlackKing.h" />
+    <ClInclude Include="BlackMinister.h" />
+    <ClInclude Include="BlackSolidier.h" />
+    <ClInclude Include="BlackVehicle.h" />
+    <ClInclude Include="BlockedRule.h" />
+    <ClInclude Include="Chess.h" />
+    <ClInclude Include="ChessBoard.h" />
+    <ClInclude Include="ChessGame.h" />
+    <ClInclude Include="ChooseChess.h" />
+    <ClInclude Include="FindWay.h" />
+    <ClInclude Include="GameResult.h" />
+    <ClInclude Include="MoveChess.h" />
+    <ClInclude Include="Player1.h" />
+    <ClInclude Include="Player2.h" />
+    <ClInclude Include="Red.h" />
+    <ClInclude Include="RedBachelor.h" />
+    <ClInclude Include="RedGun.h" />
+    <ClInclude Include="RedHorse.h" />
+    <ClInclude Include="RedKing.h" />
+    <ClInclude Include="RedMinister.h" />
+    <ClInclude Include="RedSolidier.h" />
+    <ClInclude Include="RedVehicle.h" />
+    <ClInclude Include="Vector2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Black.cpp" />
+    <ClCompile Include="BlackBachelor.cpp" />
+    <ClCompile Include="BlackGun.cpp" />
+    <ClCompile Include="BlackHorse.cpp" />
+    <ClCompile Include="BlackKing.cpp" />
+    <ClCompile Include="BlackMinister.cpp" />
+    <ClCompile Include="BlackSolidier.cpp" />
+    <ClCompile Include="BlackVehicle.cpp" />
+    <ClCompile Include="BlockedRule.cpp" />
+    <ClCompile Include="Chess.cpp" />
+    <ClCompile Include="ChessBoard.cpp" />
+    <ClCompile Include="ChessGame.cpp" />
+    <ClCompile Include="ChooseChess.cpp" />
+    <ClCompile Include="FindWay.cpp" />
+    <ClCompile Include="GameResult.cpp" />
+    <ClCompile Include="MoveChess.cpp" />
+    <ClCompile Include="Player1.cpp" />
+    <ClCompile Include="Player2.cpp" />
+    <ClCompile Include="Red.cpp" />
+    <ClCompile Include="RedBachelor.cpp" />
+    <ClCompile Include="RedGun.cpp" />
+    <ClCompile Include="RedHorse.cpp" />
+    <ClCompile Include="RedKing.cpp" />
+    <ClCompile Include="RedMinister.cpp" />
+    <ClCompile Include="RedSolidier.cpp" />
+    <ClCompile Include="RedVehicle.cpp" />
+    <ClCompile Include="测试.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

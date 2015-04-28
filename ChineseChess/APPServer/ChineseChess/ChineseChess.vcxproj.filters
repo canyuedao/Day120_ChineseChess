@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBachelor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackKing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessBoard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackMinister.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackVehicle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackHorse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackGun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackSolidier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RedKing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RedBachelor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RedMinister.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RedVehicle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RedHorse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RedGun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RedSolidier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FindWay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Black.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseChess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveChess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Red.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockedRule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BlackKing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBachelor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackMinister.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackVehicle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackHorse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackGun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackSolidier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RedKing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RedBachelor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RedMinister.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RedVehicle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RedHorse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RedGun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RedSolidier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FindWay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Black.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseChess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveChess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Red.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameResult.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockedRule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="测试.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
